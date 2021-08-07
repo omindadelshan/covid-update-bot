@@ -2,9 +2,9 @@ from telethon import TelegramClient, events
 import json
 import requests
 
-APP_ID=60138 #my.telegram.org
-APP_HASH='1d39943fac785545ac1cc8' #my.telegram.org
-BOTT='1814562442:AAENHjj2ajNyvG2LYY-a0'#@botfather
+APP_ID=6021226 #my.telegram.org
+APP_HASH='7c6dd7679f9dc0ab599f336de13cedf1' #my.telegram.org
+BOTT='1728259168:AAEwDpuURuYasoJ705fFHTXjG5axkXviR3w'#@botfather
 
 bot = TelegramClient('bot', APP_ID, APP_HASH).start(bot_token=BOTT)
 
@@ -21,12 +21,12 @@ def staat(qq):
         "inline_keyboard": [
             [
                 {
-                    "text": " 💎 Youtube  ",
-                    "url": "https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                    "text": "🔥Developer💥  ",
+                    "url": "https://t.me/omindas"
                 }, 
                 {
-                    "text": " 🔔 Channel",
-                    "url": "https://t.me/sl_bot_zone"
+                    "text": " 🔔 Channel🌟",
+                    "url": "https://t.me/sdprojectupdates"
                 }
             ]
         ]
@@ -71,7 +71,7 @@ def staa():
                     global_deaths + '</code>' + '\n' + '🙂 Healed number = ' '<code>'  +
                     global_recovered + '</code>' + '\n' + '\n' + '\n' +
                     '✅ All information is provided by the government and reputable sources' + '\n' +
-                    '~ @sl_bot_zone 🇱🇰 ~')
+                    '~ @omindas 🇱🇰 ~')
     return textt
 
 
